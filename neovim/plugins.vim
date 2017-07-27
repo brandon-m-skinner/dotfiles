@@ -3,9 +3,7 @@ call plug#begin('~/.local/share/nvim/plugged')
 " General
 Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
 Plug 'Shougo/neoinclude.vim'
-Plug 'Shougo/neosnippet.vim'
 Plug 'Shougo/neocomplete.vim'
-Plug 'Shougo/neosnippet-snippets'
 Plug 'neovim/node-host'
 Plug 'clojure-vim/neovim-client'
 Plug 'tpope/vim-surround'
@@ -16,12 +14,11 @@ Plug 'Xuyuanp/nerdtree-git-plugin'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'tpope/vim-fugitive'
-Plug 'w0rp/ale'
 
 "Lispy
 Plug 'guns/vim-sexp', {'for': 'clojure' }
 Plug 'tpope/vim-sexp-mappings-for-regular-people', {'for': 'clojure' }
-Plug 'luochen1990/rainbow'
+Plug 'luochen1990/rainbow', {'for': 'clojure' }
 
 "Clojure
 Plug 'tpope/vim-fireplace', {'for': 'clojure' }
